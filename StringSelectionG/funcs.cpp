@@ -8,7 +8,6 @@
 using namespace std;
 BWString WOEID;
 
-
 void  WOEID_getter(const BWString & querry, BWString & WOEID){
     vector<BWString> lineparts = querry.split("woeid");
  //   cout << "lineparts = "<< lineparts.size() << endl;
