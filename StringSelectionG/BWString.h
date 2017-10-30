@@ -1,8 +1,3 @@
-//  BWString.h
-//  A simple smart string class
-//  by Bill Weinman <http://bw.org/>
-//  Copyright (c) 2014 The BearHeart Group LLC
-//
 
 #ifndef __BWLIB__BWString__
 #define __BWLIB__BWString__
