@@ -4,6 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>BWString.h</itemPath>
+      <itemPath>mine.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +14,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>BWString.cpp</itemPath>
+      <itemPath>funcs.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -35,8 +39,29 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>-lsqlite3</linkerOptionItem>
+            <linkerOptionItem>-lcurl</linkerOptionItem>
+            <linkerOptionItem>-ljsoncpp</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
       </compileType>
+      <item path="BWString.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BWString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="funcs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mine.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -59,7 +84,15 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="BWString.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BWString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="funcs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mine.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
